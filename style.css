@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Oswald', sans-serif;
+}
+
+body{
+    background-image: url(images/fond.png);
+}
+
+header{
+    background-color: #B8CB21;
+    margin: auto;
+    width: 900px;
+    padding: 10px 35px;
+}
+
+header nav ul{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.logo{
+    float: left;
+    height: 130px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+nav {
+    height: 130px;
+    text-align: end;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 50px 50px;
+    text-transform: uppercase;
+}
+nav ul li{
+    list-style:none;
+}
+
+nav ul li a{
+    color: black;
+}
+
+nav ul li a:hover{
+    color: azure;
+    cursor: pointer;
+}
+
+
+main{ 
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    padding: 20px 35px;
+}
+
+h2{
+    text-indent: 1em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.para{
+    text-align: justify;
+    text-indent: 2em;
+    margin-left: 45px ;
+    margin-right: 45px;
+}
+
+.btn{
+    text-align: right;
+}
+
+button{
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #B8CB21;
+    box-shadow: 5px 10px 5px rgb(181, 171, 171) ;
+    border-radius: 5px;
+}
+
+.img{
+    float: left;
+    margin-left: 25px;
+}
+
+footer p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.imgicn{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    float: none;
+}
